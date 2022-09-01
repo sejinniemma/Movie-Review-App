@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/movie.png" />
+    <title>Movie Review App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main id="reviewApp">
+      <section id="review__registration">
+        <form>
+          <h1>Update new review</h1>
+          <div>
+            <h2>Movie Title</h2>
+            <input
+              class="input_title"
+              type="text"
+              placeholder="Please enter a title"
+            />
+          </div>
+          <div>
+            <h2>Comment</h2>
+            <input
+              class="input_comment"
+              type="text"
+              placeholder="Please enter the contents"
+            />
+          </div>
+          <div>
+            <h2>Rating</h2>
+            <select id="rating">
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+          </div>
+          <input class="submitBtn" type="submit" value="Add" />
+        </form>
+      </section>
+      <section id="review__search">
+        <h1>Review Search</h1>
+        <input
+          class="search_input"
+          type="text"
+          placeholder="Please enter the title of the movie"
+        />
+      </section>
+      <section id="review__list">
+        <h1>Review List</h1>
+      </section>
+    </main>
+  </body>
+</html>
